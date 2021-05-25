@@ -5,12 +5,11 @@
 - Tracy Ragan, DeployHub
 
 ## Introduction
-The charter describes the operations of the CNCF WG Microservices within CNCF Application Delivery TAG, focuses on delivering cloud native applications 
-which involves multiple phases including building, deploying, managing, and operating. Additionally, the TAG produces supporting material and best practices 
-for end-users, and provide guidance and coordination for CNCF projects working within the TAG’s scope.
+This charter describes the operations of the CNCF WG Microservices within CNCF Application Delivery TAG. The focus is on delivering cloud native applications 
+using a microservice architecture which involves multiple phases of the application delivery process including building, deploying, testing, managing, and operations. Important to understand in the formation of this WG is the disruption of the monolithic practice of deliverying software created by moving to a microservice architecture. Additionally, the TAG produces supporting material and best practices for end-users, and provides guidance and coordination for CNCF projects working within the TAG’s scope.
 
 ## Alignment with SIG App Delivery Charter
-As an “operating model” for cloud native applications, Microservices fully aligns with "Application delivery workflow and strategy" and 
+As an “operating model” for cloud native applications, the microservice architecture fully aligns with "Application delivery workflow and strategy" and 
 "Configuration source driven workflow" scopes defined in CNCF SIG App Delivery charter.
 
 ## Mission
@@ -31,6 +30,7 @@ WG Microservices focuses on the following topics of the lifecycle of cloud-nativ
 - Microservices architecture and definition, including description, parameter and configuration
 - Guidance and practice for microservices design and development
 - Microservices bundling, packaging and deployment
+- Microservice versioning, configuration management and tracking
 - Microservices Security and Observability instrumentation
 - Microservices Lifecycle Management, including Release management
 - Interoperability including Integration patterns.
