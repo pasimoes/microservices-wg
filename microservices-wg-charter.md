@@ -6,11 +6,10 @@
 
 ## Introduction
 This charter describes the operations of the CNCF WG Microservices within CNCF Application Delivery TAG. The focus is on delivering cloud native applications 
-using a microservice architecture which involves multiple phases of the application delivery process including building, deploying, testing, managing, and operations. Important to understand in the formation of this WG is the disruption of the monolithic practice of deliverying software created by moving to a microservice architecture. Additionally, the TAG produces supporting material and best practices for end-users, and provides guidance and coordination for CNCF projects working within the TAG’s scope.
+using a microservice architecture which involves multiple phases of the application development process including design, architect, develop, testing, and life cycle management. Important to understand in the formation of this WG is the disruption of the monolithic practice of deliverying software created by moving to a microservice architecture. Additionally, the TAG produces supporting material and best practices for end-users, and provides guidance and coordination for CNCF projects working within the TAG’s scope.
 
 ## Alignment with SIG App Delivery Charter
-As an “operating model” for cloud native applications, the microservice architecture fully aligns with "Application delivery workflow and strategy" and 
-"Configuration source driven workflow" scopes defined in CNCF SIG App Delivery charter.
+As an “architectural model” for cloud native applications, the microservice architecture fully aligns with "Application definition, including description, parameter and configuration" and "Guidance and practice for application design and development" scopes defined in CNCF SIG App Delivery charter.
 
 ## Mission
 Consistent with the CNCF WG definition, the mission of CNCF WG Microservices is:
@@ -72,9 +71,10 @@ prerequisite for publication. Collaborating with TAG Security on reviews should 
 focus on end-to-end aspects of these projects, including non-Kubernetes platforms and projects where applicable; while Kubernetes SIG Apps will focus on 
 Kubernetes-specific runtime-level concerns. Close collaboration is expected to happen within these two groups around different phases for application delivery.
 
-- WG GitOps - The process to delivery microservices and the best practices to continuous integration, continuous deployment and continuous delivery overlap 
+- GitOps WG - The process to delivery microservices and the best practices to continuous integration, continuous deployment and continuous delivery overlap 
 with this group. 
 
+- Platforms WG - The packaging format and delivery mechanism of the microservices artifacts following best practices or recommendations for these use cases and standard for declaring an entire application in a platform-agnostic way are central for build microservices and delivery them.
 
 
 ## Operations
