@@ -28,6 +28,7 @@ WG Microservices focuses on the following topics of the lifecycle of cloud-nativ
 
 - Microservices architecture and definition, including description, parameter and configuration
 - Guidance and practice for microservices design and development
+- Guidance and practice for microservices architecture and design patterns (including anti-patterns)
 - Microservices bundling, packaging and deployment
 - Microservice versioning, configuration management and tracking
 - Microservices Security and Observability instrumentation
